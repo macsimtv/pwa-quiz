@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Inter', sans-serif;
+
+  box-sizing: border-box;
+}
+
+main {
+  width: clamp(0px, 90%, 1200px);
+
+  margin: 0 auto;
+}
+
+header {
+  width: clamp(0px, 90%, 1200px);
+
+  margin: 0 auto;
+  padding: 50px 0;
+
+  text-align: center;
+}
+
+.start {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btnStart {
+  width: 100px;
+  height: 40px;
+
+  margin: 0 auto;
+
+  background-color: #000;
+  color: #fff;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+#btnStart:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hide {
+  display: none;
+}
+
+.question button {
+  width: 100px;
+  height: 40px;
+
+  background-color: #000;
+  color: #fff;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.question #answers {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.question #question {
+  margin: 20px 0;
+
+  font-size: 1.5rem;
+}
+
+.btnRestart {
+  width: 100px;
+  height: 40px;
+
+  display: inline-block;
+
+  margin: 0 auto;
+  margin-top: 25px;
+
+  background-color: #000;
+  color: #fff;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}

@@ -1,0 +1,20 @@
+{
+  "quizz": {
+    "fr": {
+      "débutant": [
+        {
+          "id": 1,
+          "question": "Que jette-t-on sur le ring en cas d'abandon durant un match de boxe ?",
+          "propositions": [
+            "Gant",
+            "Protège-dents",
+            "Éponge",
+            "Culotte"
+          ],
+          "réponse": "Éponge",
+          "anecdote": "Durant un match, l'arbitre est le garant principal de la sécurité des boxeurs et peut sanctionner les gestes interdits et dangereux."
+        }
+      ]
+    }
+  }
+}
