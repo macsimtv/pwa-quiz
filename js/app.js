@@ -21,6 +21,94 @@ const quiz = [
     ],
     "answer": "Berlin",
   },
+  {
+    "id": 3,
+    "question": "What is the capital of Spain?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Madrid"
+    ],
+    "answer": "Madrid",
+  },
+  {
+    "id": 4,
+    "question": "What is the capital of England?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Madrid"
+    ],
+    "answer": "London",
+  },
+  {
+    "id": 5,
+    "question": "What is the capital of Italy?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Rome"
+    ],
+    "answer": "Rome",
+  },
+  {
+    "id": 6,
+    "question": "What is the capital of Poland?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Warsaw"
+    ],
+    "answer": "Warsaw",
+  },
+  {
+    "id": 7,
+    "question": "What is the capital of Portugal?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Lisbon"
+    ],
+    "answer": "Lisbon",
+  },
+  {
+    "id": 8,
+    "question": "What is the capital of Greece?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Athens"
+    ],
+    "answer": "Athens",
+  },
+  {
+    "id": 9,
+    "question": "What is the capital of Sweden?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Stockholm"
+    ],
+    "answer": "Stockholm",
+  },
+  {
+    "id": 10,
+    "question": "What is the capital of Norway?",
+    "answers": [
+      "Paris",
+      "London",
+      "Berlin",
+      "Oslo"
+    ],
+    "answer": "Oslo",
+  }
 ];
 
 const btnStart = document.getElementById("btnStart");
